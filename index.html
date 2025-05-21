@@ -34,6 +34,7 @@
             text-align: center;
             position: relative;
             z-index: 1000;
+            padding: 0 20px;
         }
 
         .profile-pic {
@@ -127,6 +128,25 @@
             margin-top: 40px;
             position: relative;
             z-index: 1000;
+        }
+
+        @media (max-width: 767px) {
+            .side-banners {
+                display: none;
+            }
+            .banner {
+                height: auto;
+                padding: 60px 20px;
+            }
+            .profile-pic {
+                width: 120px;
+            }
+            .section {
+                padding: 40px 15px;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
         }
     </style>
 </head>
